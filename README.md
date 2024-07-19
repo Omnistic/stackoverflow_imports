@@ -1,5 +1,5 @@
 Created based on a comment by ImpeccableChicken: https://stackoverflow.com/questions/78764500/configuration-file-of-python-app-shared-across-sub-packages
-
+### Simplified file-structure to demonstrate the problem
 ```
 stackoverflow_imports/
     main.py
@@ -10,7 +10,6 @@ stackoverflow_imports/
             __init__.py
             one_kind_of_motor.py
 ```
-
 ### CONFIG.py
 ```python
 globals()['one_setting'] = 1.2345
